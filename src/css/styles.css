@@ -1,0 +1,48 @@
+body {
+  max-width: 770px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+header {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+header nav {
+  text-align: center;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+header nav a {
+  height: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  flex-basis: 15%;
+  flex-grow: 1;
+}
+
+header .banner {
+  min-height: 200px;
+  border: 1px solid black;
+  background-image: url('/img/cups.jpg');
+  background-size: cover;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
