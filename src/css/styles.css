@@ -57,13 +57,12 @@ nav a.active {
 
 
 /* Blog Posts */
-.post {
+.entry {
   word-wrap: break-word;
   margin-top: 15px;
   margin-bottom: 45px;
 }
-
-.post p {
+.entry p {
   line-height: 24px;
 }
 .entry-title {
@@ -81,4 +80,7 @@ nav a.active {
   margin-bottom: 10px;
   padding: 0 6px;
   text-transform: uppercase;
+}
+.entry-content {
+  padding-right: 15px;
 }
