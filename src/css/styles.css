@@ -12,6 +12,14 @@ h4 { font-size: 1.3rem; }
 h5 { font-size: 1rem; }
 h6 { font-size: 0.9rem; }
 
+table {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+}
+
 header {
   text-align: right;
 }
@@ -62,9 +70,6 @@ nav a.active {
   margin-top: 15px;
   margin-bottom: 45px;
 }
-.entry p {
-  line-height: 24px;
-}
 .entry-title {
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -75,12 +80,26 @@ nav a.active {
   background: #f5f5f5;
   border-bottom: 1px solid #ddd;
   float: right;
-  font-size: 11px;
+  font-size: 0.7em;
   line-height: 24px;
-  margin-bottom: 10px;
-  padding: 0 6px;
+  padding: 0 8px;
+  margin-top: 4px;
   text-transform: uppercase;
 }
 .entry-content {
   padding-right: 15px;
+  line-height: 24px;
+}
+
+
+/* Contact details */
+.contact-address,
+.contact-telephone,
+.contact-email {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.contact-telephone,
+.contact-address {
+  margin: 10px 0px;
 }
