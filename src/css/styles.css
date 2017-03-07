@@ -100,6 +100,7 @@ nav a.active {
   font-size: 0.9em;
 }
 .contact-telephone,
-.contact-address {
+.contact-address,
+.contact-map {
   margin: 10px 0px;
 }
