@@ -14,7 +14,7 @@ class IndexPage extends Component {
             {"name": "keywords", "content": "sample, something"},
           ]}
         />
-        <p>Welcome to MyGi</p>
+        <p>Welcome</p>
         <PageLink to={'/about'}>
           About Page >>
         </PageLink>
