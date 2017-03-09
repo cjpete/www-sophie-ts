@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react'
 import classNames from 'classnames'
 
-import cupsImage from '../img/cups.jpg'
+import cupsImage from './cups.jpg'
 
-import PageLink from './common/PageLink'
+import PageLink from '../common/PageLink'
 
 const activeClass = (path, activePath) =>
   classNames({ active: path === activePath })
