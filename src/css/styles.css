@@ -51,6 +51,8 @@ header nav a {
   text-transform: uppercase;
   flex-basis: 15%;
   flex-grow: 1;
+  text-decoration: none;
+  color: black;
 }
 
 header .banner {

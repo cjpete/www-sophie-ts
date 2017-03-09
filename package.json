@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/cjpete/www-sophie-ts#readme",
   "dependencies": {
+    "classnames": "^2.2.5",
     "gatsby": "^0.12.38",
     "preact": "^7.2.0",
     "preact-compat": "^3.14.0",
