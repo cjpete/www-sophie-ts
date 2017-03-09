@@ -1,0 +1,28 @@
+{
+  "name": "www-sophie-ts",
+  "version": "1.0.0",
+  "description": "Sophie T's Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjpete/www-sophie-ts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjpete/www-sophie-ts/issues"
+  },
+  "homepage": "https://github.com/cjpete/www-sophie-ts#readme",
+  "dependencies": {
+    "gatsby": "^0.12.38",
+    "preact": "^7.2.0",
+    "preact-compat": "^3.14.0",
+    "react": "^15.4.2",
+    "react-helmet": "^4.0.0"
+  }
+}
