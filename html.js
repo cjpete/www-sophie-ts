@@ -1,24 +1,26 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { prefixLink } from 'gatsby-helpers';
-import { config } from 'config';
+import React from 'react'
+import Helmet from 'react-helmet'
 
-const BUILD_TIME = new Date().getTime();
+// special runtime modules not in npm
+import { prefixLink } from 'gatsby-helpers'
+import { config } from 'config'
+
+const BUILD_TIME = new Date().getTime()
 
 const HTML = (props) => {
-  const head = Helmet.rewind();
+  const head = Helmet.rewind()
 
   // only include bundle.js if we are running in production mode
   // and noProductionJavascript is set as true
-  let js = <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />;
-  if (process.env.NODE_ENV === 'production' && config.noProductionJavascript ) {
-    js = null;
+  let js = <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+  if (process.env.NODE_ENV === 'production' && config.noProductionJavascript) {
+    js = null
   }
 
   // include link to the css file if we are running in production mode
-  let css;
+  let css
   if (process.env.NODE_ENV === 'production') {
-    css = <link rel="stylesheet" href={prefixLink(`/styles.css?t=${BUILD_TIME}`)} />;
+    css = <link rel="stylesheet" href={prefixLink(`/styles.css?t=${BUILD_TIME}`)} />
   }
 
   return (
@@ -39,7 +41,7 @@ const HTML = (props) => {
         {js}
       </body>
     </html>
-  );
-};
+  )
+}
 
-export default HTML;
+export default HTML
