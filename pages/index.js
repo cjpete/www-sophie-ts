@@ -8,7 +8,7 @@ class IndexPage extends Component {
     return (
       <div>
         <Helmet
-          title={'MyGi'}
+          title={"Sophie T's"}
           meta={[
             {"name": "description", "content": "Sample"},
             {"name": "keywords", "content": "sample, something"},

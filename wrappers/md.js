@@ -20,7 +20,8 @@ const MarkdDownWrapper = ({ route }) => {
         title={`${siteTitle} | ${title}`}
         meta={meta}
       />
-    <div dangerouslySetInnerHTML={{ __html: page.body }} />
+      <h1>{title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: page.body }} />
     </div>
   )
 }
